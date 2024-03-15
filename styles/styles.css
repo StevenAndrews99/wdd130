@@ -19,21 +19,21 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 840px;
+}
+
 main img {
-    float: right;
-    width: 150px;
-    height: auto;
+    width: 113px;
+    height: 225px;
     border: 1px solid steelblue;
     p { padding: 0;}
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
     padding: 10px;
-}
-
-main {
-    max-width: 840px;
 }
 
 aside {
@@ -46,15 +46,15 @@ aside {
     text-align: center;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
 }
 
 footer {
@@ -75,5 +75,5 @@ footer {
 
 aside {
     width: 20em;
-    text-align: center;
+    text-align: relative;
 }
