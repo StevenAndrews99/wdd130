@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap')
-
-CSS-rules; 
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap'); 
 
 body {
     font-family: var(--paragraph-font);

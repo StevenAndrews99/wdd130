@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+:root {
+    --primary-color: #F8F4E3;
+    --secondary-color: #D4CDC3;
+    --accent1-color: #D5D0CD;
+    --acent2-color: #A2A392;
+
+    --heading-font: 'Belleza', serif;
+    --paragraph-font: 'Belleza', serif;
+
+    --nav-background-color: #F8F4E3;
+    --nav-link-color: #D4CDC3;
+    --nav-hover-link-color: #D5D0CD;
+    --nav-hover-background-color: #A2A392;
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding:0;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
