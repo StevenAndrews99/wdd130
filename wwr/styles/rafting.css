@@ -38,7 +38,7 @@
     display: block;
     margin: 0;
     width: fit-content;
-    max-height: 850px;
+    max-height: 1050px;
     /* max-width: 300px; */
 
   }
@@ -102,6 +102,7 @@
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
+    font: var(--paragraph-font)
   }
   nav  {
     list-style-type: none;
