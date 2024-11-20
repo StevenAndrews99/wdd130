@@ -1,3 +1,7 @@
+:root {
+    --heading-background-color: #f06;
+}
+
 main {
     max-width: 840px;
 }
