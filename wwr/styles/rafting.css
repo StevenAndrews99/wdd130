@@ -87,6 +87,12 @@ body {
     background: var(--accent1-color);
   }
 
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   header {
     font-family: var(--paragraph-font);
     padding: 1em;
