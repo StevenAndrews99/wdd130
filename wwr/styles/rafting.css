@@ -104,6 +104,7 @@ body {
   }
 
   header {
+    display: grid;
     font-family: var(--paragraph-font);
     padding: 1em;
     text-align: center;
@@ -158,18 +159,20 @@ body {
   }
 
   nav {
+    display: flex;
+    list-style-type: none;
     background-color: var(--headline-color-on-white);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
     font: var(--paragraph-font)
   }
-
+/* ------ Not getting rid of this yet, but taking it out doesn't seem to create any issues -------
   nav  {
     list-style-type: none;
     display: flex;
   }
-
+*/
   nav a {
     padding: 1em;
     min-width: 120px;
