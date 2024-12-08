@@ -29,6 +29,10 @@ body {
     align-items: center;
 }
 
+body article {
+    color: var(--headline-color-on-color);
+}
+
 header {
     display: grid;
     font-family: var(--paragraph-font);
