@@ -151,3 +151,9 @@ footer p {
     color: white;
     text-align: center;
 }
+
+iframe {
+    border: 0;
+    width: 600px;
+    height: 450px;
+}
