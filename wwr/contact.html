@@ -1,93 +1,94 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
-        <title>Contact Us | 'Rapids' White Water Rafting</title>
-        <meta name="author" content="Steven Andrews">
-        <meta name="description" content="Contact.html">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/contact.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Whitewater Rafting Vacations | Dry Oar Boating | Contact Us</title>
+
+        <link rel="stylesheet" href="./styles/contact.css" />
     </head>
-
     <body>
-        <header>
-            <h1>'Rapids' White Water Rafting | Contact Us</h1>
-            <img src="images/rapids_logo.jpg" alt="...">
-            <nav> 
-                <a href="site-plan-rafting.html">Home</a>
-                <a href="about.html"> About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-
-        <main>
-        <div class="map"></div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25738.720500395742!2d-84.68490081509452!3d35.150323525715336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885e3467080710c5%3A0x7f5afa672cb45a5!2sOcoee%20River!5e0!3m2!1sen!2sus!4v1689352280915!5m2!1sen!2sus"></iframe>
-            <section>
-                <h2>'Rapids' White Water Rafting</h2>
-                <p>Address (See Below)</p>
-                <p>Phone Number (123) 456-7890</p>
-                <p>Email: contact@rapidswwr.com</p>
-            </section>
-        </main>
-
-        <article>
-            <h2>Want to work with us?</h2> <!-- Added heading to article -->
-            <div class="b">It's a blast working with us!</div>
-            <img src="images/employee1.jpg" alt="...">
-            <div class="b"> We celebrate your accomplishments!</div>
-            <img src="images/employee3.png" alt="...">
-            <div class="b">We ensure a positive work environment!</div>
-            <img src="images/employee2.jpg" alt="...">
-        </article>
-
-        <form action="/action_page.php">
-            <p>Newsletter</p>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-
-            <label for="email">Please enter your email:</label><br>
-            <input type="text" id="email" name="email"><br>
-
-            <p>How may we help you today?</p>
-
-            <!-- Radio Buttons -->
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">HTML</label><br>
-
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">CSS</label><br>
-
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">JavaScript</label><br>
-
-            <!-- Checkbox -->
-            <input type="checkbox" id="newsletter" name="newsletter">
-            <label for="newsletter">Subscribe to the monthly newsletter</label><br>
-
-            <button type="submit">Please SUBMIT my form</button>
-        </form>
-
-        <footer>
-            <p>©2024, 'Rapids' White Water Rafting | Steven Andrews</p>
-            <nav class="social links">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.jpg" alt="Facebook">
+        <div id="content">
+            <header>
+                <a id="logo_link" href="./index.html">
+                    <img class="logo" src="./images/logo.png" alt="Whitewater Rafting Logo" />
                 </a>
+                <nav>
+                    <a href="./index.html">Home</a>
+                    <a href="./rivers.html">Rivers</a>
+                    <a href="./site-plan-rafting.html">Site Plan</a>
+                    <a href="./contactus.html">Contact Us</a>
+                </nav>
+            </header>
+            <div id="hero">
+                <div id="hero-box">
+                    <img id="hero-img" src="./images/hero.png" alt="People enjoying white water rafting" />
+                </div>
+                <section id="hero-msg">
+                    <h1 class="home-title">Contact Us</h1>
+                    <h4>Make Memories with Dry Oar</h4>
+                    <div class="button-box">
+                        <a class="book" href="./contactus.html">Book Now</a>
+                    </div>
+                </section>
+            </div>
+            <main class="home-grid">
+                <div id="feedback"></div>
 
-                <a href="https://twitter.com">
-                    <img src="images/twitter.jpg" alt="Twitter">
-                </a>
-
-                <a href="https://instagram.com">
-                    <img src="images/instagram.jpg" alt="Instagram">
-                </a>
-            </nav>
-        </footer>
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+            </main>
+            <footer>
+                <p>Dry Oar &copy; 2024 - Steven Andrews</p>
+                <p><a href="site-plan-rafting.html">Site Plan</a></p>
+                <p><a href="./contactus.html">Contact Us</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="./images/facebook.png" alt="fb icon" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="./images/twitter.png" alt="twitter icon" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="./images/instagram.png" alt="instagram icon" />
+                    </a>
+                </div>
+            </footer>
+        </div>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById("feedback");
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener("submit", function (e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML =
+                    "Hello " + formElement.user_name.value + "! Thank you for your message. We will get back with you as soon as possible!";
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle("moveDown");
+            });
+        </script>
     </body>
 </html>
